@@ -1,0 +1,116 @@
+<html>
+<head>
+    <title>Registation Page</title>
+  <style>
+body{
+    font-family: sans-serif;
+    background:linear-gradient(to right,hs1(194,90%,24%),hs1(317,61%,33%));
+    color: rgb(6, 1, 4);
+    background-color: rgb(108, 59, 93);
+}
+.header{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+.footer{
+    text-align: center;
+    font-family: 'Trebuchet MS' ;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(31, 35, 33, 0.582);
+}
+.form{
+    width: 35rem;
+    margin: auto;
+    color: whitesmoke;
+    background-color: rgba(31, 15, 13, 0.582);
+    border-radius: 12px;
+    padding: 20px 25px;
+    border:1px solid rgba( 255,255,255,0.125)
+}
+li{
+    list-style: none;
+}
+.main{
+    padding: 16px;
+}
+input[type=text],
+input[type=Password],
+input[type=email]{
+    width:100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing:border-box;
+}
+.register {
+color: white;
+text-align: center;
+}
+.register a:link,
+a:visited{
+    background-color: #040404;
+    color: #faf4f4;
+   border:2px solid #f8fdf8;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+}
+.register a:hover, 
+a:active{
+background-color: green;
+color: white;
+cursor: pointer;
+}
+  </style>
+</head>
+<body>
+<div>
+    <div class="header">
+        <h1>Registration</h1>
+    </div>
+    <div class="form">
+        <ul class="main">
+            <li><label for="User Name">User Name:</label></li>
+            <li>
+                <input type="text" placeholder="enter User Name" name="user Name">
+            </li>
+            <br>
+            <li>
+            Gender: 
+            <input type="radio" name="checked">
+            Male
+            <input type="radio" name="checked">
+            Female
+            <input type="radio" name="checked">
+            Other
+            <input type="radio" name="checked">
+            </li>
+            <br>
+         <li>
+            <label for="date">Date Of Birth:</label>
+            <input type="date" name="date">
+         </li>
+            <br>
+            <li><label for="email">Email-ID</label></li>
+            <li>
+                <input type="email" placeholder="Enter Email-ID" name="email">
+            </li>
+            <br>
+            <li><label for="Pass Word">Pass Word:</label></li>
+            <li>
+                <input type="Password" placeholder="enter Pass Word" name="Pass Word"> 
+            </li>
+            <br>
+            <li><label for="Confirm Pass Word">Confirm Pass Word:</label></li>
+            <li>
+                <input type="Password" placeholder="Confirm Pass Word" name="Confirm Pass Word">
+            </li>
+            <p class="register"><a href="success page.html">Sudmit</a></p>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
