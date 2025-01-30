@@ -1,0 +1,36 @@
+<html>
+    <header>
+        <title>css pseudo element</title>
+        <style>
+           p::first-letter{
+            font-size: 50px;
+           }
+           p::first-line{
+            color: brown;
+           }
+           ::marker{
+            color: blue;
+            font-weight: bolder;
+           }
+           p::after{
+            content:'and how are you?' ;
+           }
+            p::before{
+                content: 'hello';
+            }
+            p::selection{
+                background: ghostwhite;
+                color: darkviolet;
+                font-weight: bolder;
+            }
+        </style>
+    </header>
+    <body> 
+        <p> pseudo element</p>
+        <ol>
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+        </ol>
+    </body>
+</html>
