@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>while loop</title>
+    </head>
+    <body>
+       
+        <script type="text/javascript">
+             var NUMBER=12345;
+            var SUM=0,a;
+           while(NUMBER>0){
+            a=NUMBER*10;
+            SUM+=a;
+            NUMBER=parseInt(NUMBER/10)
+           if(NUMBER=0 && SUM>=10){
+              NUMBER=SUM;
+              SUM=0;
+           }
+           }
+         console.log(SUM);
+        </script>
+    </body>
+</html>
