@@ -4,17 +4,18 @@
         <style>
             div{
               background-image: url("globe.jpeg") ;
-              position: relative;
+              position: absolute;
               background-repeat: no-repeat;
-              animation: repeat 4s linear 5ms infinite ;
+              animation:alternate-reverse 5s infinite;
               height: 200px;
               width: 200px;
               padding: 20px;
               
             }
-            @keyframes repeatit{
-                from{left:2%;}
-                to{right: 20%;}
+            @keyframes repeat{
+               10%{left:0;
+            transform: rotate(360deg );}
+                50%{right: 50%}
             }
         </style>
     </head>

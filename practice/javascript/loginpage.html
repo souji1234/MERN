@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>javascript</title>
+        <script>
+          function loginvalidation(){
+            var uname=document.myform.username.value;
+            var pass=document.myform.password.value;
+            if(uname==null||uname==""){
+            alert("name cant be blant");
+            return false;
+            }elseif(pass.length(6))
+                alert("password must be at least 6 charactors long");
+              return false;
+            }
+
+        
+              </script>
+    </head>
+    <body >
+    <h3>login page</h3>
+    <form name="myform" action="loginpage.html" onsubmit="return loginvalidation()">
+        user name:<input type="text" name="username"><br>
+        password:<input type="password" name="password"><br>
+        <input type="submit" value="submit">
+
+    </form>
+    </body>
+  
+</html>
