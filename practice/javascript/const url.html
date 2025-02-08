@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>java script</title>
+    </head>
+    <body>
+        <script >
+      const url="c:\Users\admin\Documents\GitHub\MERN\practice\HTML5&CSS3\globe.jpeg" ;
+      fetch(url).then(Response=>{
+        if(!Response.ok){
+            throw new Error("Error fetch data");
+        }
+        return Response.Json();
+      })
+      .then(data=>{
+        console.log("data form the API",data);
+      })
+      .catch(error=>{
+        console.log("Error:",error);
+      })
+        </script>
+    </body>
+</html> 
