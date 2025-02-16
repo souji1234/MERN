@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forgot Password</title>
-</head>
-<style>
-    body {
+ body {
         font-family: sans-serif;
         background: linear-gradient(to right, hsl(309, 78%, 23%), hsl(168, 87%, 25%));
         color: whitesmoke;
@@ -84,30 +74,3 @@
         color: white;
         cursor: pointer;
     }
-</style>
-
-<body>
-    <div>
-        <div class="header">
-            <h1>Forgot Password</h1>
-        </div>
-        <div class="form">
-            
-            <ul class="mainContainer">
-
-         
-                <li><label for="email">Email-ID</label></li>
-                <li><input type="email" placeholder="Enter Email-ID" name="email"></li>
-
-                <br><br>
-               
-                <li>
-                    <p class="register"><a href="./login.html">Submit</a></p>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-</body>
-
-</html>
