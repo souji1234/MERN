@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>jquery</title>
+        <style>
+         .borders{
+            border: 2px solid;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            width: 50px;
+         }
+         .change{
+            color: azure;
+            background-color: black;
+            font-weight: bold;
+         }
+        </style>
+       <script src="https:code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+            <div class="borders" id="test">hello jquery</div>
+            <input type="button" value="change"onclick="change();">
+            <script>
+                var change=()=>{
+                    $("#test").addClass("change");
+                }
+        </script>
+    </body>
+</html>
