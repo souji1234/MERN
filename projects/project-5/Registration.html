@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="my styles.css">
+</head>
+<body>
+    <div>
+        <div class="header">
+            <h1>Registration</h1>
+        </div>
+        <div class="form">
+            <ul class="mainContainer">
+                <li><span class="astric">*</span><label for="username">Username:</label></li>
+                <li><input type="text" placeholder="Enter Username" name="username">
+                    <div class="errorStatus nameErr">Name field is mandate</div>  </li>
+                <br><br>
+                <li><span class="astric">*</span><label for="pswrd">Password:</label></li>
+                <li><input type="password" placeholder="Enter Password" name="pswrd">
+                    <div class="errorStatus passwordErr">password field is mandate</div></li>
+                <br><br>
+                <li><span class="astric">*</span>Gender:
+                    <input type="radio" name="checked">Male
+                    <input type="radio" name="checked">Female
+                    <input type="radio" name="checked">Others
+                    <div class="errorStatus genderErr">Gender is mandate</div></li> 
+                <br><br>
+                <li>
+                    <lable for="date"><span class="astric">*</span><b>Date Of Birth:</b></lable>
+                    <input type="date" name="date"><div class="errorStatus dateErr">Date field is mandate</div>
+                </li>
+                <br><br>
+                <li><label for="mobile">Mobile Number</label></li>
+                <li><input type="number" placeholder="Enter MobileNumber" name="mobile"></li>
+                <br><br>
+                <li><span class="astric">*</span><label for="email">Email-ID:</label></li>
+                <li><input type="email" placeholder="Enter Email-ID" name="email">
+                    <div class="errorStatus mailErr">Mail id field is mandate</div></li>
+                <br><br>
+                <li>
+                    <p class="register"><a href="./login.html">Submit</a></p>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
