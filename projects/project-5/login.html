@@ -1,54 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
   <link rel="stylesheet" href="css style.css">
   <script src="app.js"> </script>
 </head>
-
 <body>
     <div>
         <div class="header">
             <h1>Kids World</h1>
         </div>
         <div class="form">
-
             <div class="headingsContainer">
                 <h3>LOGIN</h3>
-               
             </div>
             <div class="mainContainer">
-        
                 <label for="username">Username</label>
                 <input type="text" placeholder="Enter Username" name="username">
-
                 <br><br>
-
-            
                 <label for="pswrd">Password</label>
                 <input type="password" placeholder="Enter Password" name="pswrd">
-                <div id="rblock"></div><input type="text" placeholder="Enter Captcha">
-                <input type="button" value="click me" onclick="generateCapthca()">
-                
+                <div id="rblock"></div><input type="button" value="Captcha" onclick="generateCapthca()">
+                <input type="text" placeholder="Enter Captcha">
                 <div class="subcontainer">
                     <label>
                         <input type="checkbox" checked="checked" name="remember"> Remember me
                     </label>
                     <p class="forgotpsd"> <a href="./forgotPassword.html">Forgot Password?</a></p>
                 </div>
-
                 <p class="submit"><a href="./product.html">Submit</a></p>
-
-
                 <p class="register"><a href="./registration.html">Register here!</a></p>
-                
-
             </div>
-
         </div>
     </div>
 </body>
