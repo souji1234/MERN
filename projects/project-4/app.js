@@ -2,6 +2,8 @@ var userDetils = {};
 var readUserDetails = () => {
     userDetils.name = document.querySelector("#userName").value;
     userDetils.name = userDetils.name.trim();
+
+    
     try {        
         if (userDetils.name == '') {
             throws;                        
